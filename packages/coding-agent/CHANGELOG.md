@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- RPC clients can read the session tree via `get_tree` (raw `SessionManager.getTree()` snapshot) and `get_navigation_tree` (the flattened, filterable projection the `/tree` selector renders, with server-side filter modes and fuzzy search).
+
 ## [18.0.8] - 2026-08-27
 
 ### Added
